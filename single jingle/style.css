@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  padding: 10px;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  z-index: 5;
+}
+
+#saveButton{
+  position: absolute;
+  bottom: 100;
+  right: 0;
+  z-index:5;
+}
+
+#mainCanvas {
+  position: absolute;
+  /* Use absolute positioning */
+  top: 50%;
+  /* Position the top edge of the element at the center */
+  left: 50%;
+  /* Position the left edge of the element at the center */
+  transform: translate(-50%, -50%);
+  /* Shift the element to center it exactly */
+}
